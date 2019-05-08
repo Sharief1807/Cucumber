@@ -1,0 +1,139 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User can add tariff",
+        "description": "",
+        "id": "title-of-your-feature;user-can-add-tariff",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 67096981592,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User in the telecom page",
+            "match": {
+              "location": "Addtariff.user_in_the_telecom_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37794571128,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User in the AddTariff Page",
+            "match": {
+              "location": "Addtariff.user_in_the_AddTariff_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10733834885,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User fill details and clickon submit",
+            "match": {
+              "location": "Addtariff.user_fill_details_and_clickon_submit(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1000",
+                  "449",
+                  "449",
+                  "200",
+                  "10",
+                  "30",
+                  "05"
+                ]
+              },
+              {
+                "cells": [
+                  "1500",
+                  "649",
+                  "499",
+                  "200",
+                  "10",
+                  "30",
+                  "05"
+                ]
+              },
+              {
+                "cells": [
+                  "2000",
+                  "749",
+                  "549",
+                  "200",
+                  "10",
+                  "25",
+                  "05"
+                ]
+              },
+              {
+                "cells": [
+                  "2500",
+                  "899",
+                  "599",
+                  "200",
+                  "05",
+                  "25",
+                  "05"
+                ]
+              },
+              {
+                "cells": [
+                  "3000",
+                  "999",
+                  "649",
+                  "200",
+                  "05",
+                  "20",
+                  "05"
+                ]
+              },
+              {
+                "cells": [
+                  "3500",
+                  "999",
+                  "699",
+                  "200",
+                  "05",
+                  "20",
+                  "05"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371802,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User see confirmation message",
+            "match": {
+              "location": "Addtariff.user_see_confirmation_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/org/firstcucumber/Addtariff.feature",
+    "tags": []
+  }
+]
